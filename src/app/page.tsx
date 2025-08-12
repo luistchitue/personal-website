@@ -189,15 +189,16 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
-      company: 'Planetaria',
+      company: 'Viterbidesk',
       title: 'CEO',
       logo: logoPlanetaria,
-      start: '2019',
+      start: '2022',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
     },
+    /*
     {
       company: 'Airbnb',
       title: 'Product Designer',
@@ -219,6 +220,7 @@ function Resume() {
       start: '2008',
       end: '2011',
     },
+    */
   ]
 
   return (
@@ -275,35 +277,37 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Software designer, founder, and amateur astronaut.
+            Software designer, founder, and enthusiast AI researcher.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I’m Luís, a software designer and entrepreneur based in Luanda, Angola. I’m the founder and CEO of Viterbidesk, where we develop deep learning systems for cyber defense and monitoring.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
+            <SocialLink 
+              href={`${process.env.NEXT_PUBLIC_TWITTER_URL}`} 
+              aria-label="Follow on X" 
+              icon={XIcon} 
+            />
             <SocialLink
-              href="#"
+              href={`${process.env.NEXT_PUBLIC_INSTAGRAM_URL}`}
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="#"
+              href={`${process.env.NEXT_PUBLIC_GITHUB_URL}`}
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="#"
+              href={`${process.env.NEXT_PUBLIC_LINKEDIN_URL}`}
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
           </div>
         </div>
       </Container>
-      <Photos />
+      {/* <Photos />*/}
+      
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
