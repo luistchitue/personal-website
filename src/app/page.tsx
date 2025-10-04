@@ -280,7 +280,7 @@ export default async function Home() {
             Hi there! I am Luís, and...
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I excel at automating complex business operations into easy-to-use AI applications. I've built several <Link href={'/projects'} className='text-blue-400'>MCP servers</Link>, <Link href={'/projects'} className='text-blue-400'>n8n automations</Link>, and <Link href={'/projects'} className='text-blue-400'>LangChain/LangGraph agents</Link> for many business use cases. I am particularly interested in working with fast-paced teams on AI automation projects (preferably in a remote setting).
+            I excel at automating complex business operations into easy-to-use AI applications. I have built several <Link href={'/projects'} className='text-blue-400'>MCP servers</Link>, <Link href={'/projects'} className='text-blue-400'>n8n automations</Link>, and <Link href={'/projects'} className='text-blue-400'>LangChain/LangGraph agents</Link> for many business use cases. I am particularly interested in working with fast-paced teams on AI automation projects (preferably in a remote setting).
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink 
