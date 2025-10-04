@@ -277,10 +277,10 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Software designer, founder, and enthusiast AI researcher.
+            Hi there! I am Luís, and...
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Luís, a software designer and entrepreneur based in Luanda, Angola. I’m the founder and CEO of Viterbidesk, where we develop deep learning systems for cyber defense and monitoring.
+            I excel at automating complex business operations into easy-to-use AI applications. I've built several <Link href={'/projects'} className='text-blue-400'>MCP servers</Link>, <Link href={'/projects'} className='text-blue-400'>n8n automations</Link>, and <Link href={'/projects'} className='text-blue-400'>LangChain/LangGraph agents</Link> for many business use cases. I am particularly interested in working with fast-paced teams on AI automation projects (preferably in a remote setting).
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink 
