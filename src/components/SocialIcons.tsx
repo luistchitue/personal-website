@@ -34,3 +34,20 @@ export function LinkedInIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
     </svg>
   )
 }
+
+export function YouTubeIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
+      <path d="M23.498 6.186a2.998 2.998 0 0 0-2.112-2.116C19.383 3.5 12 3.5 12 3.5s-7.383 0-9.386.57A2.998 2.998 0 0 0 .502 6.186C0 8.19 0 12 0 12s0 3.81.502 5.814a2.998 2.998 0 0 0 2.112 2.116C4.617 20.5 12 20.5 12 20.5s7.383 0 9.386-.57a2.998 2.998 0 0 0 2.112-2.116C24 15.81 24 12 24 12s0-3.81-.502-5.814ZM9.545 16.02V7.98l6.545 4.02-6.545 4.02Z" />
+    </svg>
+  )
+}
+
+export function MediumIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
+      <path d="M2.01 7.13c.02-.2-.06-.4-.22-.53L.36 4.98V4.7h6.34l4.89 10.72 4.3-10.72h6.09v.28l-1.52 1.46c-.13.1-.19.26-.16.42v11.37c-.03.16.03.32.16.42l1.48 1.46v.28h-8.62v-.28l1.53-1.49c.15-.15.15-.19.15-.42V8.44l-4.3 10.81h-.58L2.01 7.13zm16.36 12.09c.13 0 .23-.11.23-.24v-11.1c0-.13-.1-.24-.23-.24-.13 0-.23.11-.23.24v11.1c0 .13.1.24.23.24z" />
+    </svg>
+  )
+}
+

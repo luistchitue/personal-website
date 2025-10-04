@@ -9,7 +9,9 @@ import {
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
+  MediumIcon,
   XIcon,
+  YouTubeIcon,
 } from '@/components/SocialIcons'
 import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
@@ -289,14 +291,19 @@ export default async function Home() {
               icon={XIcon} 
             />
             <SocialLink
-              href={`${process.env.NEXT_PUBLIC_INSTAGRAM_URL}`}
+              href={`${process.env.NEXT_PUBLIC_MEDIUM}`}
               aria-label="Follow on Instagram"
-              icon={InstagramIcon}
+              icon={MediumIcon}
             />
             <SocialLink
               href={`${process.env.NEXT_PUBLIC_GITHUB_URL}`}
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
+            />
+            <SocialLink
+              href={`${process.env.NEXT_PUBLIC_YOUTUBE}`}
+              aria-label="Follow on GitHub"
+              icon={YouTubeIcon}
             />
             <SocialLink
               href={`${process.env.NEXT_PUBLIC_LINKEDIN_URL}`}
